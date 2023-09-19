@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#tela {
+    height: 750px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(121, 3, 156);
+    padding: 25px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu a {
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#perfil > a {
+    color: white;
+    background-color: rgba(181, 78, 212, 0.555);
+    padding: 13px;
+    margin: 0px 7px;
+}
+
+#menu-perfil > a {
+    color: white;
+    
+    padding: 13px;
+    margin: 0px 7px;
+}
+
+#ola {
+    background-color: rgb(121, 3, 156);
+    color: white;
+    padding: 10px 0px 20px 20px;
+}
