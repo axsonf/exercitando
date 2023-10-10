@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dvidindo Divs</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            background-color: black;
+            color: white;
+        }
+
+        .tudo {
+            display: inline-flex;
+            justify-content: cente;
+            margin: auto;
+        }
+        
+        .menu01 {
+            max-width: 400px;
+            background-color: red;
+        }
+        
+        .conteudo {
+            max-width: 1000px;
+            min-width: 200px;
+            background-color: blue;
+        }
+
+        .menu02 {
+            max-width: 400px;
+            background-color: rgb(255, 0, 0);
+            margin-right: 0px;
+        }
+
+        .final {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Teste</h1>
+    </header>
+    <div class="tudo">
+        <div class="menu01">
+            <h1>Seila</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda quo reprehenderit nisi nulla, error omnis esse nemo alias dolorum debitis facere distinctio saepe cumque deleniti ipsam quis dolore voluptatibus.</p>
+        </div>
+        <main class="conteudo">
+            <h1>Tbm Nao Sei</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste numquam expedita, perferendis quis unde voluptate modi et fugiat voluptatum vel cumque veritatis consequuntur, ratione aliquam beatae omnis nisi, totam hic?</p>
+        </main>
+        <div class="menu02">
+            <h1>Nao sei mesmo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officiis eum, ut asperiores nobis fugit eveniet magni vel necessitatibus, sed amet tempora veniam vero totam blanditiis fugiat. Error, voluptas minus!</p>
+        </div>
+    </div>
+    <footer class="final"><p>Parte Final</p></footer>
+</body>
+</html>
